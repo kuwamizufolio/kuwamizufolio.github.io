@@ -57,13 +57,21 @@ li {
 a {
   color: #333;
   /*color: #ff69b4;*/
-  /*text-decoration: none;*/
+  text-decoration: none;
 }
 a:hover {
   color: #ff0066;
   outline: 0;
 }
 a:active {
+  color: #333333;
+  outline: 0;
+}
+.photographer:hover {
+  color: #ff0066;
+  outline: 0;
+}
+.photographer:active {
   color: #333333;
   outline: 0;
 }
@@ -91,6 +99,15 @@ main {
   width:80%;
   max-width: 80%;
   height: auto;
+}
+.img {
+  width: 100%;
+}
+.photographer {
+  display:block;
+  text-align: right;
+  color: #b2b2b2;
+  font-size: 0.7em;
 }
 .section {
   float: none;
