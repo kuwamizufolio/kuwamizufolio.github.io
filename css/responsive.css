@@ -7,13 +7,18 @@ only screen and (min-device-width: 640px) and (max-device-width: 1136px){
     width: 85%;
     height: 100%;
 
-    font-size: 1.2em;
+    font-size: 1em;
   }
   h1 {
-    font-size: 1.4em;
+    font-size: 1.2em;
   }
   h2, h3, h4 {
-    padding-bottom: 10px;
+    /* padding-bottom: 10px; */
+    font-size: 0.8em;
+    font-weight: bold;
+  }
+  ul, ol {
+    padding-inline-start: 20px; 
   }
  
 
