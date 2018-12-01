@@ -100,7 +100,7 @@ main {
   max-width: 80%;
   height: auto;
 }
-.img {
+.image > .img {
   width: 100%;
 }
 .photographer {
