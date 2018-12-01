@@ -95,7 +95,6 @@ main {
 }
 .image {
   margin: 0 auto;
-  display:block;
   width:80%;
   max-width: 80%;
   height: auto;
@@ -104,8 +103,8 @@ main {
   width: 100%;
 }
 .photographer {
-  display:block;
-  text-align: right;
+  display: flex;
+  justify-content: flex-end;
   color: #b2b2b2;
   font-size: 0.7em;
 }
